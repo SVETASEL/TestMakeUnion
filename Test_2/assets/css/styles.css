@@ -1,0 +1,20 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item.completed .task-text {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.list-group-item .task-text {
+  margin-right: auto;
+}
+
+#todo-input {
+  width: 70%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Basic To-Do list to add, check and delete tasks"
+    />
+    <meta
+      name="keywords"
+      content="Checklist, To-Do list, Bootstrap, JS, HTML, CSS"
+    />
+    <meta name="author" content="Svetlana Selivanova" />
+    <title>To-Do List</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header text-center">
+              <h1>Мой список дел</h1>
+            </div>
+            <div class="card-body">
+              <form id="todo-form" class="form-inline justify-content-between">
+                <input
+                  type="text"
+                  id="todo-input"
+                  class="form-control mr-2"
+                  placeholder="Здесь нужно написать таск"
+                  aria-label="New task"
+                />
+                <button type="submit" class="btn btn-success">Добавить</button>
+              </form>
+              <ul id="todo-list" class="list-group list-group-flush mt-3"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

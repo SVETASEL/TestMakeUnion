@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User List</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <section class="container mt-5" id="main-container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div id="user-list" class="card">
+            <div class="card-header text-center">
+              <h2>Список пользователей</h2>
+            </div>
+            <ul class="list-group list-group-flush" id="users"></ul>
+          </div>
+          <div id="user-details" class="card d-none">
+            <div class="card-header text-center">
+              <h2>Информация о пользователе</h2>
+              <button class="btn btn-secondary" id="back-button">
+                Вернуться к списку
+              </button>
+            </div>
+            <div class="card-body" id="user-details-body"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
